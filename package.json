@@ -1,0 +1,13 @@
+{ "name" : "mtg-hangouts"
+, "version" : "0.0.0"
+, "description" : "An intermediator bot to parse Hangouts messages and retrieve relevant DeckBrew information"
+, "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/Falciron/mtg-hangouts.git" }
+, "scripts" :
+  { "start" : "node mtg-hangouts.js" }
+, "dependencies" :
+  { "hangupsjs" : "*"
+  , "q" : "*"
+  , "querystring" : "*"
+  , "request" : "*" } }
